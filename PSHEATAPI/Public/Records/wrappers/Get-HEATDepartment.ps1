@@ -8,10 +8,12 @@ function Get-HEATDepartment
         .PARAMETER departmentName
         Enter a stringn vaule which represents the deaprtment name.
         .EXAMPLE
-        PS C:\>Get-HEATTask -departmentName 'Accomodation'
+        PS C:\>Get-HEATDepartment -departmentName 'Accomodation'
         Returns the business object for Accomodation.
         .NOTES
         May want to include code in future
+        .LINK
+        https://github.com/ajclark-notabot/PSHEATAPI
     #>
     [CmdletBinding()]
     [OutputType([PSCustomObject])]

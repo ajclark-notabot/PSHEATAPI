@@ -12,6 +12,8 @@ function Add-HEATDepartment
         adds the business object for Accomodation.
         .NOTES
         May want to include code in future
+        .LINK
+        https://github.com/ajclark-notabot/PSHEATAPI
     #>
     [CmdletBinding()]
     [OutputType([PSCustomObject])]
